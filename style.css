@@ -1,0 +1,54 @@
+/* 1.Первый уровень */
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.color-block {
+  color: green;
+}
+/* 2.Второй уровень */
+
+a[href^="https"] {
+  color: red;
+}
+.list > li:last-child a {
+  background-color: green;
+}
+
+ul + p {
+  font-size: 26px;
+}
+
+/* 3.Второй уровень (“работаю с css-ом”) */
+
+.text-box > h3:first-child {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+div > p:first-child {
+  color: red;
+}
+.text-box > p:nth-child(odd) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+/* 4.Кто совсем молодец ("по желанию") */
+
+.bg-box {
+  height: 700px;
+  background: url(image/grass-png-images-pictures-transparent-28.png) bottom
+      repeat-x,
+    url(image/lamp-png-0.png) top repeat-x, url(image/Ёжик.png) left repeat-y,
+    url(image/58eb07b830eab15b56162788.png) right repeat-y,
+    url(image/pole-zelen-trava-dom-derevya.jpg) center no-repeat;
+  background-size: 150px 200px, 50px 50px, 50px 50px, 50px 50px, 800px 500px;
+  background-color: green;
+}
